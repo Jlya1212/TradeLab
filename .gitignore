@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Java
+backend/target/
+*.class
+*.log
+
+# Flutter
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/android/local.properties
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
