@@ -1,0 +1,13 @@
+docker compose up -d postgres
+docker compose ps
+
+
+docker compose down
+
+
+
+
+cd E:\TradeLab\backend
+.\mvnw.cmd spring-boot:run
+
+flutter emulators --launch Pixel_7
