@@ -5,7 +5,10 @@ docker compose ps
 docker compose down
 
 
-
+Invoke-RestMethod http://localhost:8081/actuator/health |
+ConvertTo-Json -Depth 6
+Invoke-RestMethod http://localhost:8081/api/health |
+ConvertTo-Json
 
 cd E:\TradeLab\backend
 .\mvnw.cmd spring-boot:run
